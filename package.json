@@ -1,0 +1,28 @@
+{
+  "name": "imlo",
+  "version": "1.0.0",
+  "description": "\"# Office-Bot\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OgabekMengn1yozov/Office-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OgabekMengn1yozov/Office-Bot/issues"
+  },
+  "homepage": "https://github.com/OgabekMengn1yozov/Office-Bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.59.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.24.0"
+  }
+}
